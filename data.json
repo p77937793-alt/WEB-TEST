@@ -1,0 +1,187 @@
+{
+  "meta": { "version": 1, "updatedAt": "2026-11-17T00:00:00.000Z" },
+  "site": {
+    "brand": { "name": "骰子星雲", "logoEmoji": "🎲", "logoImage": "" },
+    "theme": { "accent": "#8b7cff", "accent2": "#3ee6c1" },
+    "nav": [
+      { "id": "nav-1", "label": "首頁", "target": "home", "url": "" },
+      { "id": "nav-2", "label": "特色", "target": "features", "url": "" },
+      { "id": "nav-3", "label": "小遊戲", "target": "games", "url": "" },
+      { "id": "nav-4", "label": "桌遊百科", "target": "library", "url": "" },
+      { "id": "nav-5", "label": "聯絡我們", "target": "contact", "url": "" }
+    ],
+    "hero": {
+      "eyebrow": "沈浸式桌遊互動空間",
+      "title": "擲出骰子，走進桌遊的星雲",
+      "subtitle": "邊玩小遊戲邊認識經典桌遊：機制、策略、新手陷阱與進階心法，一站看懂。",
+      "ctaLabel": "馬上玩一局",
+      "ctaTarget": "games",
+      "cta2Label": "逛逛桌遊百科",
+      "cta2Target": "library",
+      "image": ""
+    },
+    "announcements": [
+      { "id": "ann-1", "tag": "新上架", "text": "桌遊百科新增《展翅翱翔》完整攻略！", "date": "2026-11-15", "active": true },
+      { "id": "ann-2", "tag": "活動", "text": "本月知識問答挑戰賽開跑，困難模式等你來戰。", "date": "2026-11-10", "active": true },
+      { "id": "ann-3", "tag": "公告", "text": "網站全新改版，所有內容都能從後台即時更新。", "date": "2026-11-01", "active": true }
+    ],
+    "features": [
+      { "id": "ft-1", "icon": "🧭", "title": "看得懂的桌遊介紹", "text": "每款遊戲都有策略雷達圖，一眼判斷它吃運氣還是吃腦力。", "size": "wide" },
+      { "id": "ft-2", "icon": "⚡", "title": "三分鐘小遊戲", "text": "問答、翻牌、擲骰，零門檻熱身。", "size": "normal" },
+      { "id": "ft-3", "icon": "🪤", "title": "新手陷阱提醒", "text": "先知道哪裡會踩雷，第一局就玩得漂亮。", "size": "normal" },
+      { "id": "ft-4", "icon": "🏆", "title": "進階心法", "text": "老手才知道的節奏與取捨，幫你從「會玩」進化到「會贏」。", "size": "wide" }
+    ],
+    "sections": {
+      "featuresEyebrow": "為什麼來這裡",
+      "featuresTitle": "玩得開心，也玩得明白",
+      "featuresSubtitle": "",
+      "gamesEyebrow": "互動小遊戲",
+      "gamesTitle": "先來熱身一局",
+      "gamesSubtitle": "選個難度就能開始，最高分會記錄在你的瀏覽器裡。",
+      "libraryEyebrow": "桌遊百科",
+      "libraryTitle": "找到下一款想開的桌遊",
+      "librarySubtitle": "用關鍵字或機制標籤篩選，點卡片看完整攻略。"
+    },
+    "contact": {
+      "title": "聯絡我們",
+      "intro": "想推薦桌遊、合作活動或回報問題，都歡迎來信。",
+      "email": "hello@example.com",
+      "phone": "",
+      "address": "",
+      "hours": "週一至週五 10:00–18:00",
+      "socials": [
+        { "id": "so-1", "label": "Instagram", "url": "https://example.com/instagram" },
+        { "id": "so-2", "label": "Facebook", "url": "https://example.com/facebook" }
+      ]
+    },
+    "footer": { "text": "© 2026 骰子星雲. 用熱愛做的桌遊小站。" }
+  },
+  "games": [
+    {
+      "id": "game-quiz",
+      "type": "quiz",
+      "title": "桌遊知識王",
+      "icon": "🧠",
+      "summary": "限時回答桌遊常識題，答得越快分數越高。",
+      "enabled": true,
+      "rules": ["每題只有一次作答機會。", "答對得分，剩餘秒數會換算成加分。", "答錯或超時會扣分（最低 0 分）。"],
+      "difficulties": [
+        { "id": "d-easy", "label": "輕鬆", "questionCount": 4, "timePerQuestion": 20 },
+        { "id": "d-normal", "label": "標準", "questionCount": 6, "timePerQuestion": 15 },
+        { "id": "d-hard", "label": "困難", "questionCount": 8, "timePerQuestion": 8 }
+      ],
+      "scoring": { "correct": 100, "timeBonus": 5, "wrongPenalty": 30 },
+      "questions": [
+        { "id": "q-1", "q": "《卡坦島》中，擲出哪個點數會觸發強盜？", "options": ["2", "6", "7", "12"], "answer": 2, "explain": "擲出 7 時移動強盜，手牌超過 7 張的玩家還要棄一半。" },
+        { "id": "q-2", "q": "「合作遊戲」最大的特色是什麼？", "options": ["玩家兩兩組隊對抗", "所有玩家一起對抗遊戲本身", "只能一個人玩", "不使用任何配件"], "answer": 1, "explain": "合作遊戲中大家同贏同輸，例如《瘟疫危機》。" },
+        { "id": "q-3", "q": "《璀璨寶石》中，玩家達到幾分會觸發遊戲結束？", "options": ["10 分", "12 分", "15 分", "20 分"], "answer": 2, "explain": "有人達到 15 分後，打完該輪即結束。" },
+        { "id": "q-4", "q": "桌遊玩家口中的「米寶（Meeple）」通常是指？", "options": ["人形的木製指示物", "一種骰子", "計分板", "遊戲說明書"], "answer": 0, "explain": "Meeple 因《卡卡頌》的小木人而廣為人知。" },
+        { "id": "q-5", "q": "「引擎構築」機制指的是什麼？", "options": ["組裝實體模型", "逐步建立越來越有效率的資源或行動組合", "比賽誰擲骰最快", "輪流拍賣卡牌"], "answer": 1, "explain": "前期投資、後期滾雪球，是引擎構築的核心樂趣。" },
+        { "id": "q-6", "q": "擲兩顆六面骰，最容易出現的點數總和是？", "options": ["6", "7", "8", "9"], "answer": 1, "explain": "總和 7 有 6 種組合，機率最高（6/36）。" },
+        { "id": "q-7", "q": "《瘟疫危機》中玩家要對抗幾種疾病？", "options": ["2 種", "3 種", "4 種", "5 種"], "answer": 2, "explain": "四種顏色的疾病，全部找到解藥即獲勝。" },
+        { "id": "q-8", "q": "「輪抽（Drafting）」的進行方式是？", "options": ["從一組選項中挑一個，其餘傳給下一位", "所有人同時擲骰", "由莊家發牌決定", "用拍賣決定順序"], "answer": 0, "explain": "挑一張、傳下去，既要拿自己要的，也要卡對手。" }
+      ]
+    },
+    {
+      "id": "game-memory",
+      "type": "memory",
+      "title": "配件記憶翻牌",
+      "icon": "🃏",
+      "summary": "翻開兩張相同的桌遊配件圖示就能配對，考驗你的短期記憶。",
+      "enabled": true,
+      "rules": ["一次翻開兩張牌，圖案相同即配對成功。", "翻錯會扣分，請記住看過的位置。", "在時限內全部配對，剩餘秒數會換算成加分。"],
+      "difficulties": [
+        { "id": "d-easy", "label": "輕鬆", "pairs": 6, "timeLimit": 60 },
+        { "id": "d-normal", "label": "標準", "pairs": 8, "timeLimit": 60 },
+        { "id": "d-hard", "label": "困難", "pairs": 10, "timeLimit": 50 }
+      ],
+      "scoring": { "match": 50, "missPenalty": 5, "timeBonus": 3 },
+      "symbols": ["🎲", "♟️", "🃏", "🧩", "🏰", "⚔️", "💎", "🗺️", "🪙", "🐉", "🚂", "🦉"]
+    },
+    {
+      "id": "game-dice",
+      "type": "dice",
+      "title": "骰運挑戰",
+      "icon": "🎯",
+      "summary": "要繼續擲還是見好就收？在回合用完前衝到目標分數。",
+      "enabled": true,
+      "rules": ["每回合可以一直擲骰，點數會累積到「本回合暫存」。", "擲到爆點點數，暫存分數歸零並結束該回合。", "按「收下分數」把暫存存進總分並結束該回合。", "在回合用完前達到目標分數即過關，剩餘回合有額外加分。"],
+      "difficulties": [
+        { "id": "d-easy", "label": "輕鬆", "targetScore": 40, "turns": 8 },
+        { "id": "d-normal", "label": "標準", "targetScore": 60, "turns": 8 },
+        { "id": "d-hard", "label": "困難", "targetScore": 80, "turns": 7 }
+      ],
+      "scoring": { "bustFace": 1, "turnBonus": 10 }
+    }
+  ],
+  "radarAxes": [
+    { "key": "strategy", "label": "策略深度" },
+    { "key": "luck", "label": "運氣成分" },
+    { "key": "interaction", "label": "玩家互動" },
+    { "key": "complexity", "label": "規則複雜" },
+    { "key": "replay", "label": "耐玩度" },
+    { "key": "theme", "label": "主題帶入" }
+  ],
+  "boardgames": [
+    {
+      "id": "bg-catan", "name": "卡坦島", "nameEn": "Catan", "emoji": "🏝️", "image": "",
+      "tagline": "交易、建設、擴張的入門經典",
+      "description": "玩家在島上收集資源、鋪路蓋村莊，並透過彼此交易換取所需，率先取得 10 分者獲勝。",
+      "mechanics": ["擲骰", "交易談判", "路線建設"],
+      "playersMin": 3, "playersMax": 4, "timeMin": 60, "timeMax": 90, "featured": true,
+      "ratings": { "strategy": 6, "luck": 6, "interaction": 9, "complexity": 4, "replay": 7, "theme": 6 },
+      "pitfalls": ["開局只看資源種類，忽略數字機率（6 與 8 最常出現）。", "手牌囤超過 7 張，擲出 7 時被迫棄掉一半。", "太早拒絕所有交易，結果自己也卡住。"],
+      "tips": ["開局優先確保磚與木，才能搶先鋪路卡位。", "中後期將產能轉向礦與麥，升級城市並抽發展卡。", "港口搭配單一高產資源，可以擺脫對交易的依賴。"]
+    },
+    {
+      "id": "bg-carcassonne", "name": "卡卡頌", "nameEn": "Carcassonne", "emoji": "🏰", "image": "",
+      "tagline": "一片一片拼出中世紀版圖",
+      "description": "每回合抽一片板塊拼入地圖，並決定是否放置米寶佔領城市、道路、修道院或草原來得分。",
+      "mechanics": ["板塊拼放", "區域控制"],
+      "playersMin": 2, "playersMax": 5, "timeMin": 30, "timeMax": 45, "featured": false,
+      "ratings": { "strategy": 6, "luck": 5, "interaction": 6, "complexity": 3, "replay": 8, "theme": 5 },
+      "pitfalls": ["把米寶全部放出去，之後抽到好板塊卻無人可用。", "忽略草原（農夫）計分，終局被大幅逆轉。"],
+      "tips": ["隨時留一到兩個米寶在手上保持彈性。", "用板塊把自己的小城接上對手的大城來分享分數。", "記住剩餘板塊類型，判斷對手的城是否還有機會完成。"]
+    },
+    {
+      "id": "bg-splendor", "name": "璀璨寶石", "nameEn": "Splendor", "emoji": "💎", "image": "",
+      "tagline": "規則五分鐘，節奏越玩越快",
+      "description": "拿取寶石籌碼購買發展卡，卡片提供永久折扣，逐步打造寶石商人的引擎並吸引貴族造訪。",
+      "mechanics": ["引擎構築", "收集成套"],
+      "playersMin": 2, "playersMax": 4, "timeMin": 30, "timeMax": 30, "featured": true,
+      "ratings": { "strategy": 7, "luck": 3, "interaction": 5, "complexity": 3, "replay": 7, "theme": 3 },
+      "pitfalls": ["一直買便宜的一階卡，引擎很大卻沒有分數。", "沒注意對手快要拿到的關鍵卡，錯過用保留行動攔截的時機。"],
+      "tips": ["開局先看貴族需要的顏色，規劃要集中的兩到三色。", "保留行動既能拿黃金，也能卡住對手的目標。", "分數到 10 分左右就該從「蓋引擎」轉為「衝分」。"]
+    },
+    {
+      "id": "bg-pandemic", "name": "瘟疫危機", "nameEn": "Pandemic", "emoji": "🧪", "image": "",
+      "tagline": "全員合作，與疫情賽跑",
+      "description": "玩家扮演不同專長的防疫專家，在全球奔走控制疫情，並趕在局勢失控前研發出四種解藥。",
+      "mechanics": ["合作", "手牌管理", "行動點數"],
+      "playersMin": 2, "playersMax": 4, "timeMin": 45, "timeMax": 60, "featured": false,
+      "ratings": { "strategy": 7, "luck": 5, "interaction": 9, "complexity": 5, "replay": 7, "theme": 8 },
+      "pitfalls": ["只顧著清方塊，忘了真正的勝利條件是找到解藥。", "讓一位玩家指揮全場，其他人失去參與感。"],
+      "tips": ["盡早蓋研究站，縮短交換卡片與移動的距離。", "留意棄牌堆：傳染牌洗回牌頂後，同樣的城市會再次爆發。", "善用角色能力分工，例如讓科學家專心收集卡片。"]
+    },
+    {
+      "id": "bg-azul", "name": "花磚物語", "nameEn": "Azul", "emoji": "🔷", "image": "",
+      "tagline": "漂亮又燒腦的抽象拼磚",
+      "description": "從工廠挑選同色瓷磚排進自己的圖案列，完成後貼上牆面得分；拿太多放不下的瓷磚會被扣分。",
+      "mechanics": ["輪抽", "圖案構築"],
+      "playersMin": 2, "playersMax": 4, "timeMin": 30, "timeMax": 45, "featured": false,
+      "ratings": { "strategy": 7, "luck": 3, "interaction": 6, "complexity": 3, "replay": 8, "theme": 3 },
+      "pitfalls": ["回合尾端被迫吃下一大把同色磚，地板列扣到爆。", "只追求填滿橫列，忽略直行與同色的終局加分。"],
+      "tips": ["貼磚時盡量相鄰，連續的磚會一次計多分。", "每次拿磚前先算一下「剩下的會逼誰吃」。", "先手標記雖然扣 1 分，但關鍵回合值得搶。"]
+    },
+    {
+      "id": "bg-wingspan", "name": "展翅翱翔", "nameEn": "Wingspan", "emoji": "🦉", "image": "",
+      "tagline": "打造屬於你的鳥類保護區",
+      "description": "在森林、草原與濕地三種棲地打出鳥類卡，每隻鳥都會強化該棲地的行動，四輪後比較總分。",
+      "mechanics": ["引擎構築", "手牌管理", "收集成套"],
+      "playersMin": 1, "playersMax": 5, "timeMin": 40, "timeMax": 70, "featured": true,
+      "ratings": { "strategy": 7, "luck": 4, "interaction": 3, "complexity": 6, "replay": 8, "theme": 9 },
+      "pitfalls": ["前兩輪打太多高分但沒有能力的鳥，後期行動效率低落。", "忽略每輪的回合目標，白白讓出穩定分數。"],
+      "tips": ["第一輪先建立食物或抽牌引擎，行動數會越來越少。", "下蛋在最後一輪是很穩定的得分方式。", "挑選能彼此觸發的棕色能力，組成連鎖。"]
+    }
+  ]
+}

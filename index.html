@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>載入中…</title>
+  <meta name="color-scheme" content="dark">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/front.css">
+</head>
+<body>
+  <!-- 背景光暈（純裝飾） -->
+  <div class="orbs" aria-hidden="true"><i></i><i></i><i></i></div>
+
+  <!-- 整個頁面由 js/front/app.js 依 data.json 動態產生，這裡沒有任何寫死的內容 -->
+  <div id="app"><div class="boot">載入中…</div></div>
+
+  <noscript><p style="padding:2rem;text-align:center">本網站需要啟用 JavaScript 才能顯示內容。</p></noscript>
+  <script type="module" src="js/front/app.js"></script>
+</body>
+</html>
